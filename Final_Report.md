@@ -110,6 +110,51 @@ if __name__ == '__main__':
         sys.exit(0)
 ```
 
+```python
+def __init__(self, addr=0x69, poll_delay=0.0166, sensor=SENSOR_MPU6050, dlp_setting=DLP_SETTING_DISABLED):
+        self.sensortype = sensor
+        if self.sensortype == SENSOR_ICM20948:
+            from icm20948 import ICM20948
+#            self.sensor = ICM20948(addr)
+            self.sensor = ICM20948(
+                address_ak=AK8963_ADDRESS,
+                address_mpu_master=addr,  # In 0x68 Address
+                address_mpu_slave=None,
+                bus=1,
+                gfs=GFS_1000,
+                afs=AFS_4G,
+                mfs=AK8963_BIT_16,
+                mode=AK8963_MODE_C100HZ)
+            if(dlp_setting > 0):
+                self.sensor.bus.write_byte_data(self.sensor.address, CONFIG_REGISTER, dlp_setting)
+
+        elif self.sensortype == SENSOR_MPU6050:
+            from mpu6050 import mpu6050 as MPU6050
+            self.sensor = MPU6050(addr)
+        
+            if(dlp_setting > 0):
+                self.sensor.bus.write_byte_data(self.sensor.address, CONFIG_REGISTER, dlp_setting)
+        
+        else:
+            from mpu9250_jmdev.registers import AK8963_ADDRESS, GFS_1000, AFS_4G, AK8963_BIT_16, AK8963_MODE_C100HZ
+            from mpu9250_jmdev.mpu_9250 import MPU9250
+
+            self.sensor = MPU9250(
+                address_ak=AK8963_ADDRESS,
+                address_mpu_master=addr,  # In 0x68 Address
+                address_mpu_slave=None,
+                bus=1,
+                gfs=GFS_1000,
+                afs=AFS_4G,
+                mfs=AK8963_BIT_16,
+                mode=AK8963_MODE_C100HZ)
+            
+            if(dlp_setting > 0):
+                self.sensor.writeSlave(CONFIG_REGISTER, dlp_setting)
+            self.sensor.calibrateMPU6500()
+            self.sensor.configure()
+```
+
 ### Packages and Drivers
 
 ### Algorithms
