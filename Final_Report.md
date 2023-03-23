@@ -4,7 +4,7 @@
 * Nathaniel Barnaby - ECE
 * Yang-Jie Qin - ECE
 * Cheuk Hin Bryan Cheng - MAE
-* Patrick Nguyễn - MAE
+* Patrick Nguyen - MAE
 
 ## Project Overview
 
