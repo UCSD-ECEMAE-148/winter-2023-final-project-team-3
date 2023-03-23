@@ -64,7 +64,7 @@ Right View
 
 ### Software
 
-'''python
+```python
 
 from __future__ import print_function
 import qwiic_icm20948
@@ -108,7 +108,7 @@ if __name__ == '__main__':
     except (KeyboardInterrupt, SystemExit) as exErr:
         print("\nEnding Example 1")
         sys.exit(0)
-'''
+```
 
 ### Packages and Drivers
 
