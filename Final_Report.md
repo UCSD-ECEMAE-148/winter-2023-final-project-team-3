@@ -10,7 +10,7 @@
 
 
 ## Gantt Chart
-
+![Gantt](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/Gantt.png)
 
 ## Hardware: Mechanical Design
 
