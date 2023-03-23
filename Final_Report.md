@@ -44,6 +44,14 @@ Vesc Power Distributor
 ## Electronic Wiring Schematic
 
 ## Final Set Up
+![Bird's Eye View](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/birds_eye.jpg)
+Bird's Eye View
+
+![Left View](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/left.jpg)
+Left View
+
+![Right View](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/right.jpg)
+Right View
 
 ### Software
 
