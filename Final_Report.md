@@ -163,19 +163,11 @@ def __init__(self, addr=0x69, poll_delay=0.0166, sensor=SENSOR_MPU6050, dlp_sett
 
 ## Milestones
 
-
 ## Potential Future Work/Unaccomplished Goals
-
-
-### Hardware Design
-
-
-### Software Design
 
 ## Presentations
 Final Project Proposal: https://docs.google.com/presentation/d/1vLvXRnHzHm6p_IpEQy8KJgz--vOFd6M9xa7Q-qHD2Ls/edit?usp=sharing
 Final Presentation: https://docs.google.com/presentation/d/17J6LZ2QZ177BDr7g3x7ZcxHlyUQ-m4LtXGy9BRernRI/edit?usp=sharing
-
 
 ## Acknowledgments
 Professor Jack Silberman, TA Kishore Nukala, Moises Lopez-Mendoza, Design and Innovation Building, all of our wonderful classmates
