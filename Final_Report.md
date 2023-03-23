@@ -64,7 +64,7 @@ Right View
 
 ### Software
 
-'''Python
+'''python
 
 from __future__ import print_function
 import qwiic_icm20948
