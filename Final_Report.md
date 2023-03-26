@@ -156,7 +156,7 @@ def __init__(self, addr=0x69, poll_delay=0.0166, sensor=SENSOR_MPU6050, dlp_sett
 ```
 
 ### Packages and Drivers
-
+cv2
 ### Algorithms
 
 ### Schematics
