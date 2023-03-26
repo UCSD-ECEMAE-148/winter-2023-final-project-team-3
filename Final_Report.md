@@ -156,14 +156,24 @@ def __init__(self, addr=0x69, poll_delay=0.0166, sensor=SENSOR_MPU6050, dlp_sett
 ```
 
 ### Packages and Drivers
-cv2 (OpenCV)
+* cv2 (OpenCV)
+* depthai (DepthAI)
+* Numpy
+* math
+* binascii
 ### Algorithms
 
 ### Schematics
 
 ## Milestones
-* figure out script that detects faces with boxes using local camera on laptop (face.py)
-* install pipeline from DepthAI and add to face.py; OAKD camera detects face without video streaming
+* figured out script that detects faces with boxes using local camera on laptop (face.py)
+* installed pipeline from DepthAI and added to face.py; OAKD camera detects face without video streaming
+Face Detection without Video Streaming
+![Face Detection without Video Streaming](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/face_detection_errors.png)
+* added video streaming to face.py while having face recognition
+* Video link: https://youtu.be/LR3pGe38OZU
+
+
 
 ## Potential Future Work/Unaccomplished Goals
 
