@@ -156,12 +156,14 @@ def __init__(self, addr=0x69, poll_delay=0.0166, sensor=SENSOR_MPU6050, dlp_sett
 ```
 
 ### Packages and Drivers
-cv2
+cv2 (OpenCV)
 ### Algorithms
 
 ### Schematics
 
 ## Milestones
+* figure out script that detects faces with boxes using local camera on laptop (face.py)
+* install pipeline from DepthAI and add to face.py; OAKD camera detects face without video streaming
 
 ## Potential Future Work/Unaccomplished Goals
 
