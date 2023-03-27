@@ -53,7 +53,14 @@ Vesc Power Distributor
 
 
 ## Electronic Components
+![Jetson Nano](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/jetson_nano.jpg)\
+Jetson Nano
 
+![OAK-D Camera](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/oak_d_lite_en.png)\
+OAK-D Camera
+
+![Lidar LD06](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/Lidar_LD06.jpg)\
+Lidar LD06
 
 ## Electronic Wiring Schematic
 
