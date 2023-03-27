@@ -11,8 +11,14 @@
 
 ## Results
 * For the depth finding assingment, both the camera and lidar were succesfully able to measure depth for the small and large object at the different ranges. For the camera, it was relatively accurate with margins of 0.1m for both the large and small object. The main issue we had with this feature is that further the object is from the camera, the harder it is to locate it on the cameras vision due to the colored depth ranges. This was relatively accurate. As for the lidar, it was also relatively accurate but we did encounter some difficulties. The further we got from the lidar, the less accurate our distances were. We believe this was due to our error in the calculations that produce the depth. With more time this could be calibrated to be spot on. Another issue we had was the speed of the lidar, because of this, we limited the range of the lidar to only be a few degrees rather than 360 degrees. With limiting our range, we sometimes had issues with keeping the objects within the range of the lidar so it took multiple attempts to get a distance. That being said, with figuring out how to get the lidar to work faster and further adjusting the calculations of distance, we believe the lidar is more accurate than the camera. They each have their pros and cons, the camera is good for rough but fast estimates where as the lidar is better for more precise measurements. 
+* DepthAI Distance Measurement with ~0.5 m^2 Object Video Link: https://youtube.com/shorts/I1zaVxE-bjM?feature=share
+* DepthAI Distance Measurement with 0.15 m^2 Box Video Link: https://youtube.com/shorts/GPADi4bS-fw?feature=share
+
+* LiDAR Distance Measurement with ~0.5 m^2 Object Video Link: https://youtu.be/Ee81_VBHxKI
+* LiDAR Distance Measurement with 0.15 m^2 Box Video Link: https://youtu.be/ARffTMx1PJ0
 
 * As for the camera face recognition, we were succesfully able to output video display which recognizes faces. This is a relatively fast responding system. It outputs the number of faces it recognizes which we tested from 0-3 faces real time. There is some error within the system as it can be innacurate thinking other shiny objects and or parts of a face are another face. It is also not limited to stationary faces as it recognizes people moving too. 
+* Face Recognition Video Link: https://youtu.be/nUz8OR_zHPA
 
 ## Gantt Chart
 ![Gantt](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/Gantt.png)
