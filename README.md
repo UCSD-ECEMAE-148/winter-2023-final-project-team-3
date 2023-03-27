@@ -66,7 +66,7 @@ Vesc Power Distributor
 ![Jetson Nano](images/jetson_nano.jpg)\
 Jetson Nano
 
-![OAK-D Camera](mages/oak_d_lite_en.png)\
+![OAK-D Camera](images/oak_d_lite_en.png)\
 OAK-D Camera
 
 ![Lidar LD06](images/Lidar_LD06.jpg)\
