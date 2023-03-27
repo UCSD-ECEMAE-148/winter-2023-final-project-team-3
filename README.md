@@ -32,57 +32,57 @@
 ![Camera/flashlight Mount](images/camera_flashlight_mount.png)\
 Camera/flashlight Mount
 
-![Electronics Tray](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/electronics_tray.png)\
+![Electronics Tray](images/electronics_tray.png)\
 Electronics Tray
 
-![Front/rear Electronics Plate Offset](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/front_rear_electronics_plate_offset.png)\
+![Front/rear Electronics Plate Offset](images/front_rear_electronics_plate_offset.png)\
 Front/rear Electronics Plate Offset
 
-![GPS Mount](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/gps_mount.png)\
+![GPS Mount](images/gps_mount.png)\
 GPS Mount
 
-![IMU Mount](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/imu_mount.png)\
+![IMU Mount](images/imu_mount.png)\
 IMU Mount
 
-![Jetson Case Key Mount](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/jetson_case_key_mount.png)\
+![Jetson Case Key Mount](images/jetson_case_key_mount.png)\
 Jetson Case Key Mount
 
-![Jetson Nano Main Case](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/jetson_nano_main_case.png)\
+![Jetson Nano Main Case](images/jetson_nano_main_case.png)\
 Jetson Nano Main Case
 
-![Lidar Tower](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/lidar_tower.png)\
+![Lidar Tower](images/lidar_tower.png)\
 Lidar Tower
 
-![Servo Voltage Converter](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/serve_voltage_converter.png)\
+![Servo Voltage Converter](images/serve_voltage_converter.png)\
 Servo Voltage Converter
 
-![Vesc Power Distributor](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/vesc_power_distributor.png)\
+![Vesc Power Distributor](images/vesc_power_distributor.png)\
 Vesc Power Distributor
 
 ## Previous Designs
 
 
 ## Electronic Components
-![Jetson Nano](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/jetson_nano.jpg)\
+![Jetson Nano](images/jetson_nano.jpg)\
 Jetson Nano
 
-![OAK-D Camera](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/oak_d_lite_en.png)\
+![OAK-D Camera](mages/oak_d_lite_en.png)\
 OAK-D Camera
 
-![Lidar LD06](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/Lidar_LD06.jpg)\
+![Lidar LD06](images/Lidar_LD06.jpg)\
 Lidar LD06
 
 ## Electronic Wiring Schematic
-![Electronic Wiring Schematic](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/electronic_schematic.png)
+![Electronic Wiring Schematic](images/electronic_schematic.png)
 
 ## Final Set Up
-![Bird's Eye View](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/birds_eye.jpg)
+![Bird's Eye View](images/birds_eye.jpg)
 Bird's Eye View
 
-![Left View](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/left.jpg)
+![Left View](images/left.jpg)
 Left View
 
-![Right View](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/right.jpg)
+![Right View](images/right.jpg)
 Right View
 
 
