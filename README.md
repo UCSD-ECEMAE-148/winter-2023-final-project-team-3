@@ -15,14 +15,14 @@
 * For the lidar, it was accurate at determining all distances with a linear or almost static amount of error. At smaller distances this was larger than the error of the camera, but at larger distances it vastly outperformed the camera due to the nature of the camera's exponential error. Additionally, the lidar had to be hand-calibrated, so with more time the error could have been lowered due to this effect. Also, since we recorded distance measurements within a range of 0.4 degrees, the measurement would be inaccurate with a smaller object at longer distances. This could be overcame by decreasing the range and waiting longer.
 * For most scenarios the lidar seems to be the winning choice for distance measurement. While at lower distances the camera seemed to outperform the lidar, the lidar seems to be more consistent with its measurements than the camera. Additionally, the lidar offers 360 degrees of distance measurements while the camera only works in one direction.
 
-* DepthAI Distance Measurement with ~0.5 m^2 Object Video Link: https://youtube.com/shorts/I1zaVxE-bjM?feature=share
-* DepthAI Distance Measurement with 0.15 m^2 Box Video Link: https://youtube.com/shorts/GPADi4bS-fw?feature=share
+* DepthAI Distance Measurement with ~0.5 m^2 Object [Video Link](https://youtube.com/shorts/I1zaVxE-bjM?feature=share)
+* DepthAI Distance Measurement with 0.15 m^2 Box [Video Link](https://youtube.com/shorts/GPADi4bS-fw?feature=share)
 
-* LiDAR Distance Measurement with ~0.5 m^2 Object Video Link: https://youtu.be/Ee81_VBHxKI
-* LiDAR Distance Measurement with 0.15 m^2 Box Video Link: https://youtu.be/ARffTMx1PJ0
+* LiDAR Distance Measurement with ~0.5 m^2 Object [Video Link](https://youtu.be/Ee81_VBHxKI)
+* LiDAR Distance Measurement with 0.15 m^2 Box [Video Link](https://youtu.be/ARffTMx1PJ0)
 
 * As for the camera face recognition, we were succesfully able to output video display which recognizes faces. This is a relatively fast responding system. It outputs the number of faces it recognizes which we tested from 0-3 faces real time. There is some error within the system as it can be innacurate thinking other shiny objects and or parts of a face are another face. It is also not limited to stationary faces as it recognizes people moving too. 
-* Face Recognition Video Link: https://youtu.be/nUz8OR_zHPA
+* Face Recognition [Video Link](https://youtu.be/nUz8OR_zHPA)
 
 ## Gantt Chart
 ![Gantt](images/Gantt.png)
@@ -104,8 +104,8 @@ Right View
 * Running code off of the OAK-D Camera instead of needing an external computer to run the code.
 
 ## Presentations
-Final Project Proposal: https://docs.google.com/presentation/d/1vLvXRnHzHm6p_IpEQy8KJgz--vOFd6M9xa7Q-qHD2Ls/edit?usp=sharing
-Final Presentation: https://docs.google.com/presentation/d/17J6LZ2QZ177BDr7g3x7ZcxHlyUQ-m4LtXGy9BRernRI/edit?usp=sharing
+-[Final Project Proposal](https://docs.google.com/presentation/d/1vLvXRnHzHm6p_IpEQy8KJgz--vOFd6M9xa7Q-qHD2Ls/edit?usp=sharing)
+-[Final Presentation](https://docs.google.com/presentation/d/17J6LZ2QZ177BDr7g3x7ZcxHlyUQ-m4LtXGy9BRernRI/edit?usp=sharing)
 
 ## Acknowledgments
 Professor Jack Silberman, TA Kishore Nukala, Moises Lopez-Mendoza, Design and Innovation Building, all of our wonderful classmates
