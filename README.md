@@ -69,6 +69,7 @@ OAK-D Camera
 Lidar LD06
 
 ## Electronic Wiring Schematic
+![Electronic Wiring Schematic](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/electronic_schematic.png)
 
 ## Final Set Up
 ![Bird's Eye View](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/birds_eye.jpg)
