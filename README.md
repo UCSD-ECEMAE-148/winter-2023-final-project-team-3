@@ -25,11 +25,11 @@
 * Face Recognition Video Link: https://youtu.be/nUz8OR_zHPA
 
 ## Gantt Chart
-![Gantt](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/Gantt.png)
+![Gantt](images/Gantt.png)
 
 ## Hardware: Mechanical Design
 
-![Camera/flashlight Mount](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/camera_flashlight_mount.png)\
+![Camera/flashlight Mount](images/camera_flashlight_mount.png)\
 Camera/flashlight Mount
 
 ![Electronics Tray](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/electronics_tray.png)\
