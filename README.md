@@ -85,7 +85,7 @@ Right View
 ### Packages and Drivers
 * cv2 (OpenCV)
 * depthai (DepthAI)
-* Numpy
+* numpy
 * math
 * binascii
 ### Algorithms
@@ -93,15 +93,20 @@ Right View
 ### Schematics
 
 ## Milestones
-* figured out script that detects faces with boxes using local camera on laptop (face.py)
-* installed pipeline from DepthAI and added to face.py; OAKD camera detects face without video streaming
-Face Detection without Video Streaming
-![Face Detection without Video Streaming](https://github.com/UCSD-ECEMAE-148/winter-2023-final-project-team-3/blob/main/images/face_detection_errors.png)
-* added video streaming to face.py while having face recognition
+* Face Recognition using DepthAI - Detects faces through a webcam and displays a count in the terminal
+* Distance Measurement using DepthAI - Using the disparity between the left and right cameras of the OAKD, distance can be calculated. This was averaged over an area to give an estimated distance of an object.
+* Distance Measurement using LiDAR - Using a LiDAR is is relatively simple to detect distances in a 360 degree range. By averaging distances over a very small range (0.4 degrees) we determined the distance of an object.
+
+## Takeaways - LiDAR vs DepthAI
+* LiDAR needs to be handcalibrated which caused a small amount of error for us at all distances, but this error seemed linear or almost static.
+* DepthAI provided very accurate distances close to the camera but getting further away (3+ meters) the error seemed to begin growing exponentially.
+* LiDAR appears to be the better option in most scenarios due to the smaller error, but some merit should be given to DepthAI for it's good performance at small distances.
+* The error for small and large objects at different distances are shown below:
 
 
 
 ## Potential Future Work/Unaccomplished Goals
+* Recognizing and labeling specific faces
 
 ## Presentations
 Final Project Proposal: https://docs.google.com/presentation/d/1vLvXRnHzHm6p_IpEQy8KJgz--vOFd6M9xa7Q-qHD2Ls/edit?usp=sharing
