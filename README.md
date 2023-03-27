@@ -1,4 +1,4 @@
-# Final Report
+# Final Report for Team 3 (ECE/MAE 148)
 
 ## Team Members
 * Nathaniel Barnaby - ECE
